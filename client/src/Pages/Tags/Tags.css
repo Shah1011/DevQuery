@@ -1,0 +1,41 @@
+.tags-h1 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.tags-p {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.tags-list-container {
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.tag {
+  padding: 10px;
+  border: solid 1px #333638;
+  border-radius: 4px;
+}
+
+.tag h5 {
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 5px 5px;
+  background-color: #333638;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.tag p {
+  font-size: 13px;
+  color: #f9fafa;
+  line-height: 17px;
+}
+

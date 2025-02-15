@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-container-1 {
+  min-height: 100vh;
+  max-width: 1350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0% auto;
+  background: #252627;
+}
+
+.home-container-2 {
+  max-width: 1200px;
+  width: calc(100% - 164px);
+  padding: 24px;
+  box-sizing: border-box;
+  background: #252627;
+}
+
+@media screen and (max-width: 760px) {
+  .home-container-2 {
+    max-width: 100%;
+    width: 100%;
+    background: #252627;
+  }
+}
