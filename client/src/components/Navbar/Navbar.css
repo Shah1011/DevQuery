@@ -115,4 +115,13 @@
   .navbar .navbar-1 .res-nav {
     display: none;
   }
+  .nav-logo {
+    padding: 5px 25px;
+    width: 180px;
+  }
+  .navbar .navbar-2 {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+  }
 }

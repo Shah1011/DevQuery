@@ -57,7 +57,7 @@ const Navbar = ({ handleSlideIn }) => {
             </Link>
             </>
           ) : (
-            <div className="flex gap-4 ml-4">
+            <div style={{ display: "flex", gap: "10px" }}>
               <Link
                 to={`/Users/${User?.result?._id}`}
                 style={{ color: "white", textDecoration: "none" }}
