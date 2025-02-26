@@ -1,7 +1,5 @@
 import axios from "axios";
 
-// baseURL: "https://stack-overflow-clone-server-ql8j.onrender.com/"
-
 const API = axios.create({
   baseURL: "https://devquery-b5ll.onrender.com",
 });
@@ -33,3 +31,5 @@ export const deleteAnswer = (id, answerId, noOfAnswers) =>
 export const getAllUsers = () => API.get("/user/getAllUsers");
 export const updateProfile = (id, updateData) =>
   API.patch(`/user/update/${id}`, updateData);
+
+// baseURL: "https://stack-overflow-clone-server-ql8j.onrender.com/"
